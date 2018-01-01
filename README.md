@@ -1,4 +1,4 @@
-# lib
+# Description
 Some Libraries, lucky lucks
 # for.js HTML
 <script src="https://raw.githubusercontent.com/hyp3rfury/lib/master/for.js"></script>
