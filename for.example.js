@@ -12,6 +12,19 @@ for$(function(v, i, next){
 	h.send();
 }, arr);
 
+// I saw "loop" can I damn use it instead? - Yes!
+// example:
+loop({
+	L: [1, 2, 3, 4, 5],
+	F: function(v, i, next){
+		console.log(v, i);
+		next();
+	},
+	end: function(){
+		console.log("done!");
+	}
+});
+
 // basic example
 var arr = [1, "aw", 2, 3, 4];
 for$(function(v, i, next){
