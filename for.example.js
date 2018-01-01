@@ -15,6 +15,13 @@ for$(function(v, i, next){
 // basic example
 var arr = [1, "aw", 2, 3, 4];
 for$(function(v, i, next){
+ console.log(v);
+ next();
+}, arr);
+
+// idk example
+var arr = [1, "aw", 2, 3, 4];
+for$(function(v, i, next){
  if (v == 3)
   next(false);
  else
