@@ -1,1 +1,0 @@
-var iter=(i,t,f,s,z)=>{s=+s||1;(z=x=>{s<0?i>t:i<t?f({v:i,i:i,go:S=>{(!1===S?(i=s<0?t+1:t-1):!isNaN(S)&&0!==parseInt(S)?i+=S:i+=s),z()},e:s<0?i+s<=t:i+s>=t}):0})()},for$=(a,f,r,i)=>{iter(i||0,a.length,(o,v,i)=>{i=o.i,v="string"==typeof a?a.charAt(i):a[i];f(o.e?{v:v,i:i,e:!0}:{v:v,i:i,e:!1,go:o.go})},r)}
