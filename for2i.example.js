@@ -1,3 +1,5 @@
+// for2i does not depend on ecmascript, never!
+
 // syntax: iter(init, beforeN, func, step=1)
 // syntax: for$(array, func, step=1, start=0)
 
